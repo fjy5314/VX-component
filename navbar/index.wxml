@@ -1,0 +1,12 @@
+<!--dist/navbar/index.wxml-->
+
+<view id='navbar' class="weui-tab i-class {{ fixed ? 'navbar-fixed' : '' }}">
+  <view class="weui-navbar">
+    <block wx:for="{{tabs}}" wx:key="{{index}}">
+      <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" style="color: {{ activeIndex == index ?color:'#000000' }}" bindtap="tabClick">
+        <view class="weui-navbar__title">{{item}}</view>
+      </view>
+    </block>
+    <view class="weui-navbar__slider" style="width:{{slider_width}}px;background-color: {{ color }};left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+  </view>
+</view>
