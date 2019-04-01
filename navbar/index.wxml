@@ -1,4 +1,4 @@
-<!--dist/navbar/index.wxml-->
+<!--asdasdaddist/navbar/index.wxml-->
 
 <view id='navbar' class="weui-tab i-class {{ fixed ? 'navbar-fixed' : '' }}">
   <view class="weui-navbar">
@@ -6,7 +6,7 @@
       <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" style="color: {{ activeIndex == index ?color:'#000000' }}" bindtap="tabClick">
         <view class="weui-navbar__title">{{item}}</view>
       </view>
-    dddsfs</block>
+  </block>
     <view class="weui-navbar__slider" style="width:{{slider_width}}px;background-color: {{ color }};left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
   </view>
 </view>
