@@ -1,3 +1,3 @@
-# VX-component
+# fl-Weapp
 微信组件
- 基于iview进行二次开发
+ 思路源于iview+wux
